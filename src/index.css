@@ -42,9 +42,11 @@ Variables
   /* yellow used for icons */
   --clr-yellow-dark: hsl(27, 97%, 57%);
   --clr-yellow-light: hsl(46, 100%, 67%);
+  --clr-netlify: hsl(177, 93%, 32%);
   /* blue used for errors */
   --clr-blue-shade: hsl(210, 87%, 31%);
-  --spacing: 0.1rem;
+
+  --spacing: 0.2rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -334,6 +336,16 @@ Single Movie
     grid-template-columns: 1fr 2fr;
   }
 }
+
+/*
+=============== 
+Icons
+===============
+*/
+.icon {
+  padding: 0 var(--spacing);
+}
+
 .page-error {
   display: flex;
   justify-content: center;
@@ -343,4 +355,14 @@ Single Movie
 }
 .page-error svg {
   color: var(--clr-blue-shade);
+}
+.footer {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.netlify-logo {
+  color: var(--clr-netlify);
 }
