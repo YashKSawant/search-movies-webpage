@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+#This Project is live [here](https://search-movies-page.netlify.app/) on Netlify.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
