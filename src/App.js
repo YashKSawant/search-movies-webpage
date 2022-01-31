@@ -1,12 +1,16 @@
 import React from 'react';
-import Home from './Home';
+import { Routes, Route } from 'react-router-dom';
 
+import Home from './Home';
+import Movie from './SingleMovie';
+import Error from './Error';
 function App() {
   return (
-    <div>
-      <h1>Just a BoilerPlate</h1>
-      <Home />
-    </div>
+    <Routes>
+      <Route path="/" exact element={<Home />} />
+      <Route path="/movies/:id" element={<Movie />} />
+      <Route path="*" element={<Error />} />
+    </Routes>
   );
 }
 

@@ -8,10 +8,8 @@ const Home = () => {
   console.log(data);
   return (
     <main>
-      <h2>home page</h2>
-
-      {/* <Form />
-      <Movies /> */}
+      <Form />
+      <Movies />
     </main>
   );
 };
