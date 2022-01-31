@@ -1,4 +1,4 @@
-#This Project is live [here](https://search-movies-page.netlify.app/) on Netlify.
+# This Project is live [here](https://search-movies-page.netlify.app/) on Netlify.
 
 ## Getting Started with Create React App
 
